@@ -31,7 +31,7 @@ python main.py --input_folder "./images" --output_folder "./results"
 ```
 ### Custom paths:
 ```bash
-python main.py --input_folder "/data/raw_images" --output_folder "/data/processed_results"
+python main.py --input_folder "path/to/input/folder" --output_folder "path/to/save/output/results"
 ```
 
 ### Help Menu:
