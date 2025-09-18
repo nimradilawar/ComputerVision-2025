@@ -2,32 +2,47 @@
 
 This repository provides a hands-on tutorial on Python-based image processing. It covers data loading, filter implementation, plotting, argument handling, and debugging using **VS Code**.  
 
-## 📌 Features  
-
-1. **DataLoader Class**  
-   - Load images from a given folder.  
-   - Manage data in a clean and reusable way.  
-
-2. **Filters Class**  
-   - Define and apply different types of filters (e.g., inversion, thresholding, Gaussian, etc.).  
-
-3. **Plotter Class**  
-   - Responsible for plotting processed images and results.  
-   - Includes plotting **2D and 3D Gaussian filters** with both **discrete** and **continuous** gaps.  
-
-4. **Command-line Arguments**  
-   - Learn how to make your code user-friendly using `argparse`.  
-   - Run Python files directly from the terminal with flexible options.  
-
-5. **Debugging in VS Code**  
-   - Step-by-step execution of your Python code using the **VS Code Debugging Console**.  
+## Main points
+1. How to load images and create a separate DataLoader class.
+2. Define various types of filters in a dedicated Filters class and apply them to images.
+3. Implement a Plotter class responsible for visualizations and plotting.
+4. Plotting 2D and 3D Gaussian filters with both discrete and continuous gaps.
+5. How to define arguments in your main.py to make interface user-friendly, and how to run Python files through the terminal using command-line arguments.
+6. How to debug and perform step-by-step execution of your code using the VS Code Debugger.
 
 ---
 
-## 🚀 Usage  
-
-Clone the repository:  
+## Clone the repository:  
 
 ```bash
 git clone https://github.com/your-username/python-image-tutorial.git
 cd python-image-tutorial
+```
+
+## 💻 Commands
+### Basic Run:
+```bash
+python main.py --input_folder "./images" --output_folder "./results"
+```
+### Custom paths:
+```bash
+python main.py --input_folder "/data/raw_images" --output_folder "/data/processed_results"
+```
+
+### Help Menu:
+```bash
+python main.py --help
+```
+
+## 📂 Project Structure
+``` bash
+python-image-tutorial/
+│── main.py                 # Entry point of the tutorial
+│── Dataloader.py           # DataLoader class
+│── Filters.py              # Filters class
+│── Plotter.py              # Plotter class
+│── images/                 # Input folder
+│── results/                # Output folder
+│── readme.md               # Documentation
+│── requirements.txt        # Dependencies
+```
