@@ -16,7 +16,7 @@ This repository provides a hands-on tutorial on Python-based image processing. I
 
 ```bash
 git clone https://github.com/nimradilawar/ComputerVision-2025
-cd CV25-Tutorial_1
+cd "ComputerVision-2025/CV25-Tutorial_1"
 ```
 
 ## ⚡ Requirements
