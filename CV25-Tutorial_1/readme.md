@@ -12,11 +12,16 @@ This repository provides a hands-on tutorial on Python-based image processing. I
 
 ---
 
-## Clone the repository:  
+## 📍Clone the repository:  
 
 ```bash
 git clone https://github.com/your-username/python-image-tutorial.git
 cd python-image-tutorial
+```
+
+## ⚡ Requirements
+```bash
+pip install -r requirements.txt
 ```
 
 ## 💻 Commands
