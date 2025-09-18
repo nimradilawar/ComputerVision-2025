@@ -9,7 +9,8 @@ This repository provides a hands-on tutorial on Python-based image processing. I
 4. Plotting 2D and 3D Gaussian filters with both discrete and continuous gaps.
 5. How to define arguments in your main.py to make interface user-friendly, and how to run Python files through the terminal using command-line arguments.
 6. How to debug and perform step-by-step execution of your code using the VS Code Debugger.
-7. 👉 [Watch Tutorial Video](youtube.com/watch?reload=9&v=JSAecH669C8&authuser=0)
+7. 👉 [![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](youtube.com/watch?reload=9&v=JSAecH669C8&authuser=0)
+
 
 ---
 
